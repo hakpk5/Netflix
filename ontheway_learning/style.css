@@ -1,0 +1,29 @@
+body {
+  background: #f7f752;
+  font-size: 1.2rem;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+body h1 {
+  background: white;
+  padding: 20px;
+}
+
+body code {
+  padding: 1.2rem;
+  background: gray;
+  padding: 0.1em 0.2em;
+  border-radius: 0.1em;
+}
+
+.box {
+  background: white;
+  -webkit-box-shadow: inset 100px 100px 100px red, inset 100px -100px 20px blue, inset -100px -100px 50px green, inset -100px 100px 100px purple;
+          box-shadow: inset 100px 100px 100px red, inset 100px -100px 20px blue, inset -100px -100px 50px green, inset -100px 100px 100px purple;
+  /* [ercentages won't work as a value */
+}
+/*# sourceMappingURL=style.css.map */

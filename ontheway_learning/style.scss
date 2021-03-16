@@ -1,0 +1,25 @@
+body {
+  background: rgb(247, 247, 82);
+  font-size: 1.2rem;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+
+  h1 {
+    background: white;
+    padding: 20px;
+  }
+  code {
+    padding: 1.2rem;
+    background: gray;
+    padding: 0.1em 0.2em;
+    border-radius: 0.1em;
+  }
+}
+
+.box {
+  background: white;
+  box-shadow: inset 100px 100px 100px red, inset 100px -100px 20px blue,
+    inset -100px -100px 50px green, inset -100px 100px 100px purple; /* [ercentages won't work as a value */
+}
